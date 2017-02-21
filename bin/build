@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+
+DIRNAME="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+
+function download {
+  wget --quiet --directory-prefix=$DIRNAME $1
+}
+
+# Data
+download https://raw.githubusercontent.com/OpenBookPrices/country-data/master/data/countries.json
+node "$DIRNAME/convert.js"
+rm -f "$DIRNAME/countries.json"
