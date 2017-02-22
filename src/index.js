@@ -6,7 +6,7 @@
 import countries from '../countries.json';
  
 export type CountryInfo = {
-  alpha: ?string,
+  alpha: string,
   codes: string[],
   emoji: ?string
 };
