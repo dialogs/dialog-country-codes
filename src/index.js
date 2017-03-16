@@ -3,6 +3,7 @@
  * @flow
  */
  
+// $FlowFixMe: Required module not found
 import countries from './countries.json';
  
 export type CountryInfo = {
