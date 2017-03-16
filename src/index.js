@@ -3,7 +3,7 @@
  * @flow
  */
  
-import countries from '../countries.json';
+import countries from './countries.json';
  
 export type CountryInfo = {
   alpha: string,

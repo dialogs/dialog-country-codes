@@ -1,0 +1,10 @@
+[ignore]
+
+[include]
+
+[libs]
+
+[options]
+emoji=true
+module.system=haste
+module.use_strict=true
