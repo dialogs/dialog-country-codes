@@ -2,16 +2,17 @@
  * Copyright 2017 dialog LLC <info@dlg.im>
  * @flow
  */
- 
-// $FlowFixMe: Required module not found
-import countries from './countries.json';
- 
-export type CountryInfo = {
-  alpha: string,
-  codes: string[],
-  emoji: ?string
+
+import type { CountryInfo } from './getCountries';
+import { getCountries } from './getCountries';
+import { getCountryName, getCountryNamesArray } from './getCountryName';
+
+export type {
+  CountryInfo
 };
- 
-export function getCountries(): CountryInfo[] {
-  return countries;
+
+export {
+  getCountries,
+  getCountryName,
+  getCountryNamesArray
 }
