@@ -3,15 +3,14 @@
  * @flow
  */
 
- // $FlowFixMe: Required module not found
- import countries from './meta/countries.json';
+import countries from './meta/countries.json';
 
- export type CountryInfo = {
-   alpha: string,
-   codes: string[],
-   emoji: ?string
- };
+export type CountryInfo = {
+  alpha: string,
+  codes: string[],
+  emoji: ?string
+};
 
- export function getCountries(): CountryInfo[] {
-   return countries;
- };
+export function getCountries(): CountryInfo[] {
+  return countries;
+}

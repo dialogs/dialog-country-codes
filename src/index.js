@@ -7,12 +7,6 @@ import type { CountryInfo } from './getCountries';
 import { getCountries } from './getCountries';
 import { getCountryName, getCountryNamesArray } from './getCountryName';
 
-export type {
-  CountryInfo
-};
+export type { CountryInfo };
 
-export {
-  getCountries,
-  getCountryName,
-  getCountryNamesArray
-}
+export { getCountries, getCountryName, getCountryNamesArray };

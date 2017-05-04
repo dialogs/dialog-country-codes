@@ -6,5 +6,8 @@
 
 [options]
 emoji=true
+
+module.file_ext=.js
+module.file_ext=.json
 module.system=haste
 module.use_strict=true
