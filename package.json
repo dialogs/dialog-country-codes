@@ -6,6 +6,6 @@
   "author": "Oleg Shilov <oleg@dlg.im>",
   "license": "MIT",
   "devDependencies": {
-    "flow-bin": "0.38.0"
+    "flow-bin": "0.89.0"
   }
 }
